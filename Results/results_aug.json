@@ -1,0 +1,62 @@
+{
+  "dataset": "BreastMNIST",
+  "runs": [
+    {
+      "aug_mode": "none",
+      "model_b": {
+        "name": "SmallCNN",
+        "test": {
+          "accuracy": 0.7307692307692307,
+          "precision": 0.7307692307692307,
+          "recall": 1.0,
+          "f1": 0.8444444444444444
+        }
+      },
+      "notes": {
+        "augmentation_train_only": true,
+        "training_budget_model_b": "epochs=5, batch_size=128, lr=0.001"
+      },
+      "model_a": {
+        "name": "LogisticRegression",
+        "test": {
+          "accuracy": 0.782051282051282,
+          "precision": 0.8773584905660378,
+          "recall": 0.8157894736842105,
+          "f1": 0.8454545454545455
+        }
+      }
+    },
+    {
+      "aug_mode": "rot",
+      "model_b": {
+        "name": "SmallCNN",
+        "test": {
+          "accuracy": 0.7307692307692307,
+          "precision": 0.7307692307692307,
+          "recall": 1.0,
+          "f1": 0.8444444444444444
+        }
+      },
+      "notes": {
+        "augmentation_train_only": true,
+        "training_budget_model_b": "epochs=5, batch_size=128, lr=0.001"
+      }
+    },
+    {
+      "aug_mode": "rot_noise",
+      "model_b": {
+        "name": "SmallCNN",
+        "test": {
+          "accuracy": 0.7307692307692307,
+          "precision": 0.7307692307692307,
+          "recall": 1.0,
+          "f1": 0.8444444444444444
+        }
+      },
+      "notes": {
+        "augmentation_train_only": true,
+        "training_budget_model_b": "epochs=5, batch_size=128, lr=0.001"
+      }
+    }
+  ]
+}
