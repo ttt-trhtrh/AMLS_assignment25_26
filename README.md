@@ -24,3 +24,11 @@ AMLS_25-26_25046280/
 ├── main.py                     # Main entry point to run the entire project
 ├── requirements.txt            # List of Python dependencies
 └── README.md                   # Project documentation
+
+3.Key Packages:
+`torch` & `torchvision`: For building and training the Convolutional Neural Network (CNN).
+ `medmnist`: For automatically downloading and loading the BreastMNIST dataset.
+ `scikit-learn`: For SVM implementation, metric calculation, and GridSearchCV.
+ `scikit-image`: For extracting Histogram of Oriented Gradients (HOG) features.
+ `matplotlib`: For visualizing training curves, confusion matrices, and success/failure cases.
+ `numpy`: For fundamental array operations.
